@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import'./sidebar.css'
 import { LineStyle, Timeline, TrendingUp, PersonOutlineOutlined,
   Inventory2Outlined, PaidOutlined, BarChartOutlined, EmailOutlined, DynamicFeedOutlined,

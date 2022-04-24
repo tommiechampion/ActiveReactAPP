@@ -4,19 +4,21 @@ import Topbar from "./components/topbar/Topbar";
 import "./app.css"
 import Home from "./pages/home/Home";
 import {
-  BrowserRouter as Router, Switch, Route, } from "react-router-dom";
+  BrowserRouter , Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Topbar/>
       <div className="container">
         <Sidebar/>
-        <Switch>
-       <Home/>
-       </Switch>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+       
+       </Routes>
+
         </div>
-      </Router>
+      </BrowserRouter>
   );
 }
 
