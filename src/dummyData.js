@@ -76,3 +76,27 @@
       email:"tomchamp@yahoo.com", status:"active", transaction: "120.00", },
      
       ];
+
+      export const productRows = [
+        { id: 1, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 2, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 3, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 4, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 5, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 6, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 7, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 8, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 9, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+      { id: 10, name: 'Playstation 6', img:"https://venezuelaaldia.com/wp-content/uploads/2019/12/play5.jpg",
+      stock: 250, status:"active", price: "$1000.00", },
+     
+      ];
