@@ -52,6 +52,23 @@
         }, 
       
       ];
+      export  const productData = [
+        {
+          name: 'Jan',
+          "Sales": 2000,
+         
+        },
+        {
+          name: 'Feb',
+          "Sales": 4000,
+         
+        }, {
+          name: 'Mar',
+          "Sales": 3000,
+         
+        }, 
+      ];
+
 
       export const userRows = [
         { id: 1, username: 'Jon  Snow', avater:"http://4.bp.blogspot.com/_EAViqbzwc_s/TJG4-8xttgI/AAAAAAAAAaM/kUar-Xk6JfI/s1600/avatar3.jpg",
