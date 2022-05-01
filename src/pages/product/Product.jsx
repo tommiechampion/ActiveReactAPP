@@ -21,7 +21,7 @@ export default function Product() {
             </div>
             <div className="productTopRight">
               <div className="productInfoTop">
-                <img src="https://altechelectronics.org/wp-content/uploads/2021/02/pacrate-gaming-headset-for-ps4-pc-xbox-one-headset-with-microphone-noice-1536x1536.jpg" alt="" className="productInfoImg" />
+                <img src="https://i5.walmartimages.com/asr/fad4ba0a-3036-4a5b-b1f0-cc9dcff587d3.f8b80685300f691be2201720f5e7a498.jpeg" alt="" className="productInfoImg" />
               <span className="productName"> Headset</span>
               </div>
               <div className="productInfoBottom">
