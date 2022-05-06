@@ -14,11 +14,10 @@
 .chartTitle{
     margin-left: 12px;
 }
-.chartSliderContainer{
-    margin-top: 10px;
-  display: flex;
-  align-items: center;
-}
+.chartSliderContainer
+{margin-top: 10px;
+    display: flex;
+    align-items: center;}
 .slidercon{
     display: flex;
 }
