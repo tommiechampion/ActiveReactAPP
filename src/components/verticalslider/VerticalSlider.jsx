@@ -6,8 +6,8 @@ import "./verticalslider.css"
 
 
 export default function VerticalSlider({onValueSet}) {
-  function preventHorizontalKeyboardNavigation(event: React.KeyboardEvent) {
-    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+  function preventHorizontalKeyboardNavigation(event) {
+    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
       event.preventDefault();
     }
   }
