@@ -20,6 +20,7 @@ function App() {
       <div className="container">
         
         <Sidebar></Sidebar>
+        
         <Routes>
           <Route exact path='/' 
         element={<Home/>}/>
