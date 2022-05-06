@@ -24,7 +24,12 @@ export default function Home(props) {
   return (
     <div className="home">
         <Featuredinfo/>
+
+
+    <div className='chartSliderContainer'> 
+    <VerticalSlider onValueSet={getSliderValue} className="chartSlider" />
         <Chart data={userData} title="User Analytics" grid dataKey="Active User"></Chart>
+        </div>
         <div className='homeWidgets'>
         <WidgetSm></WidgetSm>
         <WidgetLg></WidgetLg>

@@ -1,20 +1,22 @@
 import * as React from 'react';
+import  { useState } from "react";
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import "./verticalslider.css"
 
-export default function VerticalSlider() {
+
+export default function VerticalSlider({onValueSet}) {
   function preventHorizontalKeyboardNavigation(event: React.KeyboardEvent) {
     if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
       event.preventDefault();
     }
   }
 
-  const [value, setValue] = React.useState (1);
+  const [value, setValue] = useState (1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    React.onValueSet (newValue);
+   onValueSet (newValue);
   };
   console.log(value);
 
@@ -27,7 +29,8 @@ export default function VerticalSlider() {
           },
         }}
         orientation="vertical"
-        defaultValue={30}
+        value={value}
+        onChange={handleChange}
         aria-label="Temperature"
         onKeyDown={preventHorizontalKeyboardNavigation}
       />
